@@ -1,0 +1,35 @@
+:root {
+  --cor-principal: #2c3e50;
+  --cor-fundo: #f4f6f8;
+  --cor-destaque: #e67e22;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--cor-principal);
+  background-color: var(--cor-fundo);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: var(--cor-principal);
+}
+
+header h1 {
+  margin: 0;
+  color: var(--cor-fundo);
+}
+
+nav a {
+  padding: 8px 15px;
+  color: var(--cor-fundo);
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--cor-destaque);
+}
